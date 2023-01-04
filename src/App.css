@@ -1,0 +1,74 @@
+:root{
+  --cor-de-fundo: #EBECEE;
+  --branco: #FFFFFF;
+  --laranja: #EB9800;
+  --azul: #002F52;
+  --preto: #000000;
+  --cinza: #474646;
+  --cinza_claro: #858585;
+}
+
+.App {
+  background-color: var(--cor-de-fundo);
+  padding: 247px 0;
+}
+
+.Soma{
+  background-color: var(--azul);
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin: auto;
+  flex-direction: column;
+  border-radius: 2px 72px;
+  box-shadow: 0px 0px 15px 5px var(--preto);
+}
+
+.titulo{
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--cor-de-fundo);
+}
+
+.Campo-numero, .Operacao, .Resultado{
+  background-color: var(--laranja);
+  text-align: center;
+  margin-top: 25px;
+  font-size: 40px;
+  width: 50%;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  color: var(--branco);
+}
+
+p{
+  background-color: var(--laranja);
+  text-align: center;
+  margin: 25px 0 0 0;
+  font-size: 40px;
+  width: 15%;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  color: var(--branco);
+}
+
+
+.Operacao {
+  width: 15%;
+  background-color: var(--cinza);
+  border: 3px solid var(--botao-azul-efeito);
+  box-shadow: 0px 0px 10px 3px var(--preto);
+}
+
+.Operacao:hover{
+  background-color: var(--laranja);
+  border: 3px solid var(--botao-azul);
+  box-shadow: 0px 0px 10px 3px var(--cor-de-fundo);
+}
+
+.Resultado{
+  margin-bottom: 40px;
+}
